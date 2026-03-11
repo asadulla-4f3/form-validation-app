@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+.sub-heading {
+  margin-left: 1rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.form-container {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 24px;
+  background: lightcyan;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcyan;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.form-field {
+  min-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  align-items: center;
+}
+
+label {
+  font-size: larger;
+  font-weight: 600;
+}
+
+label::after {
+  content: "*";
+  color: red;
+}
+
+input {
+  min-height: 2rem;
+  min-width: 15rem;
+  padding: 0.5em;
+}
+
+.div-submit {
+  display: flex;
+  justify-content: end;
+}
+
+.submitBtn {
+  padding: 0.8rem;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #12c9ff;
+  width: max-content;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 25px;
+  color: #fefefe;
+}
+
+.submitBtn:disabled {
+  background-color: #12c9ff80;
+}
+
+/* .submitBtn:enabled {
+  cursor: pointer;
+  background-color: #12c9ff;
+} */
+
+.errorMsg {
+  display: block;
+  font-size: small;
+  font-weight: 300;
+  color: red;
+  margin: 5px;
+  text-align: left;
+}
